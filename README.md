@@ -24,24 +24,37 @@ How to use
 1. Learn explanatory graphs for CNNs learned using the CUB200 dataset
 
 Please download the pre-trained CNN for the CUB200 dataset from https://github.com/zqs1022/pretrainedCNNforCUB , and then unzip the file to the 'pretrained_cnns' folder.
+
 extractCNNFeatureMaps_cub200();
+
 learn_explanatoryGraph('cub200');
+
 showPatch('cub200'); % show image patches corresponding to each graph node
+
 computeStability_cub(); % compare the location stability of graph nodes and the stability of CNNfilters.
+
 
 2. Learn explanatory graphs for CNNs learned using the VOC Part dataset
 
 Please download pre-trained CNNs for the VOC Part dataset from https://github.com/zqs1022/pretrainedCNNforVOC1 , https://github.com/zqs1022/pretrainedCNNforVOC2 , https://github.com/zqs1022/pretrainedCNNforVOC3 , and then unzip the file to the 'pretrained_cnns' folder.
+
 name='bird'; % or 'cat', 'cow', 'dog', 'horse', 'sheep'
+
 extractCNNFeatureMaps_vocpart(name);
+
 learn_explanatoryGraph(name);
+
 showPatch(name); % show image patches corresponding to each graph node
+
 
 3. Learn explanatory graphs for other CNNs
 
 Write your own functions of extractCNNFeatureMaps to output
+
 a) CNN feature maps (save as 'roughCNN.mat')
+
 b) positive samples of training images (save as 'images.mat')
+
 c) your own network configurations (the configurations of VGG16,ResNet,and VAEGAN has been written in getNetParameters.m), which includes the description of the network structure. If you use networks other than VGG16/ResNet/VAEGAN, you need your own network configurations.
 
 These files are used as the input of learn_explanatoryGraph(). Then, run learn_explanatoryGraph().

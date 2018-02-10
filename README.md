@@ -2,6 +2,7 @@
 Interpreting CNN Knowledge via an Explanatory Graph
 
 
+
 Introduction
 
 This code learns an explanatory graph for a pre-trained CNN. We have tested this code using CNNs learned by the matconvnet. However, you can extend this code to CNNs learned by other platforms, e.g. the TensorFlow.
@@ -9,10 +10,12 @@ This code learns an explanatory graph for a pre-trained CNN. We have tested this
 Because this code requires massive GPU computation and parallel CPU computation, I suggest you use a computer with a GPU and powerful CPUs. Please make sure that your MATLAB is compatible with parallel computing, i.e., you can ran parpool();
 
 
+
 Citation
 
 Please cite the following paper, if you use this code.
 Quanshi Zhang, Ruiming Cao, Feng Shi, Ying Nian Wu, and Song-Chun Zhu, "Interpreting CNN Knowledge via an Explanatory Graph" in AAAI 2018
+
 
 
 How to use

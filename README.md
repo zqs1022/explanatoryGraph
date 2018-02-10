@@ -23,6 +23,7 @@ How to use
 
 1. Learn explanatory graphs for CNNs learned using the CUB200 dataset
 
+Please download the pre-trained CNN for the CUB200 dataset from https://github.com/zqs1022/pretrainedCNNforCUB , and then unzip the file to the 'pretrained_cnns' folder.
 extractCNNFeatureMaps_cub200();
 learn_explanatoryGraph('cub200');
 showPatch('cub200'); % show image patches corresponding to each graph node
@@ -30,6 +31,7 @@ computeStability_cub(); % compare the location stability of graph nodes and the 
 
 2. Learn explanatory graphs for CNNs learned using the VOC Part dataset
 
+Please download pre-trained CNNs for the VOC Part dataset from https://github.com/zqs1022/pretrainedCNNforVOC1 , https://github.com/zqs1022/pretrainedCNNforVOC2 , https://github.com/zqs1022/pretrainedCNNforVOC3 , and then unzip the file to the 'pretrained_cnns' folder.
 name='bird'; % or 'cat', 'cow', 'dog', 'horse', 'sheep'
 extractCNNFeatureMaps_vocpart(name);
 learn_explanatoryGraph(name);

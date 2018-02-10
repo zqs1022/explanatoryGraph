@@ -1,5 +1,4 @@
-# explanatoryGraph
-Interpreting CNN Knowledge via an Explanatory Graph
+# Interpreting CNN Knowledge via an Explanatory Graph
 
 
 

@@ -9,6 +9,7 @@ This code learns an explanatory graph for a pre-trained CNN. We have tested this
 
 Because this code requires massive GPU computation and parallel CPU computation, I suggest you use a computer with a GPU and powerful CPUs. Please make sure that your MATLAB is compatible with parallel computing, i.e., you can ran parpool();
 
+Note that please choose HOME --> Preferences --> General --> MAT-Files --> MATLAB Verson 7.3 or later, in order to save large MAT files.
 
 
 Citation

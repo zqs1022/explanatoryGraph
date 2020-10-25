@@ -13,10 +13,9 @@ Note that please choose HOME --> Preferences --> General --> MAT-Files --> MATLA
 
 # Citation
 
-Please cite the following paper, if you use this code.
-Quanshi Zhang, Ruiming Cao, Feng Shi, Ying Nian Wu, and Song-Chun Zhu, "Interpreting CNN Knowledge via an Explanatory Graph" in AAAI 2018
-
-
+Please cite the following two papers, if you use this code.
+1. Quanshi Zhang, Ruiming Cao, Feng Shi, Ying Nian Wu, and Song-Chun Zhu, "Interpreting CNN Knowledge via an Explanatory Graph" in AAAI 2018
+2. Quanshi Zhang, Xin Wang, Ruiming Cao, Feng Shi, Ying Nian Wu, and Song-Chun Zhu, "Extracting an Explanatory Graph to Interpret a CNN" in IEEE Transactions on Pattern Analysis and Machine Intelligence, 2020. DOI:10.1109/TPAMI.2020.2992207
 
 # How to use
 
